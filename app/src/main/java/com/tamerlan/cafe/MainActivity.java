@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 String userName = editTextName.getText().toString().trim(); // метод trim() обрезает все пробелы в начале и в конце строки
                 String password = editTextPassword.getText().toString().trim();
 
-                if (userName.isEmpty() || password.isEmpty()){
+                if (userName.isEmpty() || password.isEmpty()) {
                     Toast.makeText(
                             MainActivity.this,
                             R.string.error_fields_empty, // getString() метод, который получает строку из strings.xml по name. Метод перегружен, достаточно передать id строки
@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initViews(){
+    private void initViews() {
         editTextName = findViewById(R.id.editTextName);
         editTextPassword = findViewById(R.id.editTextPassword);
         buttonSignIn = findViewById(R.id.buttonSignIn);
     }
 
     private void launchNextScreen(String userName) {
-        Intent intent = MakeOrderActivity.newIntent(this,userName);
+        Intent intent = MakeOrderActivity.newIntent(this, userName);
         startActivity(intent);
     }
 
