@@ -140,7 +140,7 @@ public class MakeOrderActivity extends AppCompatActivity {
             } else if (radioButtonCoffee.isChecked()) {
                 drinkType = spinnerCoffee.getSelectedItem().toString();
             }
-            cart.add(new Item(drink, additives.toString(), drinkType));
+            cart.add(new Item(drink, String.join(", ", additives), drinkType));
         }
     }
 
