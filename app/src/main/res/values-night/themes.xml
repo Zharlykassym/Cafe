@@ -3,5 +3,14 @@
     <style name="Base.Theme.Cafe" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Основной цвет приложения -->
+        <item name="colorPrimary">@color/dark_blue_button</item>
+        <!-- Цвет панели действий -->
+        <item name="colorPrimaryDark">#000000</item>
+        <!-- Цвет акцента (например, для кнопок) -->
+        <item name="colorAccent">@color/dark_blue_button</item>
+        <!-- Дополнительные настройки темы, если нужно -->
     </style>
 </resources>

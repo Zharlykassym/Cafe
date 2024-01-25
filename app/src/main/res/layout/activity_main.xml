@@ -16,14 +16,14 @@
         android:adjustViewBounds="true"
         android:contentDescription="@null"
         android:padding="48dp"
-        app:srcCompat="@drawable/dodo_logo" />
+        app:srcCompat="@drawable/undraw_eating_together_re_ux62" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/welcome"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@color/dark_blue_button"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -52,8 +52,9 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/dark_blue_button"
         android:text="@string/sign_in_button"
-        />
+        android:textColor="@color/white" />
 
 
 </LinearLayout>
